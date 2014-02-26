@@ -12,7 +12,7 @@
     <bean id="restSample" class="com.linuxgt.mobile.weixin"/>
 
     <!-- 这里的地址很重要，客户端需要通过这个地址来访问WebService -->
-    <jaxrs:server id="restServiceContainer" address="/linux/weichat">
+    <jaxrs:server id="restServiceContainer" address="/restful/weichat">
         <jaxrs:serviceBeans>
             <ref bean="restSample"/>
         </jaxrs:serviceBeans>
