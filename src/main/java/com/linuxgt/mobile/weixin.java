@@ -9,16 +9,16 @@ import javax.ws.rs.Path;
  * Time: 下午2:51
  * To change this template use File | Settings | File Templates.
  */
-@Path(value = "/sample")
 public class weixin implements Iweixin{
+
 
     @Override
     public String doGet() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return "123";  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public String doPost() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        return "123";  //To change body of implemented methods use File | Settings | File Templates.
     }
 }
